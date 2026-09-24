@@ -29,3 +29,14 @@
 .cat-breed p {
   margin: 0.5em 0 1em;
 }
+@media (max-width: 768px) {
+  .cat-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cat-breed {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
